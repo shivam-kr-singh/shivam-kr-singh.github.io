@@ -1,0 +1,180 @@
+
+*
+{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand img
+{
+    width:72px;
+}
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10PX;
+}
+.navbar{
+   padding: 1em 0 !important; 
+   font-size: 14px;
+   letter-spacing: .5px;
+}
+.navbar * {
+    color:#878D96 !important;
+}
+.navbar-nav *:hover{
+    color: #FD7070 !important;
+    font-weight: bolder;
+    text-decoration: underline !important;
+    text-underline-offset: 8px !important;
+}
+.navbar-nav *:active{
+  color: #FD7070 !important;
+  font-weight: bolder;
+  text-decoration: underline !important;
+  text-underline-offset: 8px !important;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+.name *{
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 40px;
+    text-align: left;
+    font-weight: bold !important;
+    color:#2F383E;
+}
+.profile {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #878D96;
+}
+.description {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #2F383E;
+    font-weight: 500;
+}
+.icon{
+    text-align: center;
+    padding-top: 48px;
+    color: black;
+}
+a:visited{
+    color:#2F383E;
+}
+
+.icon *:hover {
+    color:#FD7070 !important;
+}
+.topic {
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 24px;
+    text-align: center;
+    color: #2F383E;
+    padding-top: 96px;
+}
+h5:before, h5:after {
+    content:'\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+  }
+.col1 {
+    background-image:url(../Legal_Document/legal\ document\ cover\ homepage.png);
+    background-repeat:none;
+    background-size:cover;
+}
+.col2 {
+    background-image: url(../Datics/datics\ cover\ homepage.png);
+    background-repeat:none;
+    background-size:cover;
+}
+.col3 {
+    background-image: url(../Irctc/irctc\ cover\ homepage.png);
+    background-repeat:none;
+    background-size:cover;
+}
+
+/* Image To Text On Hover */
+
+.hovtxt {
+    background:#fffffff1;
+    opacity:0;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    height:300px; 
+    font-weight: bolder !important;
+    font-size: 24px;
+    text-align: justify;
+}
+
+ .hovtxt:hover {
+    opacity:1;
+    color: #FD7070;
+}
+
+.sub-topic{
+    font-size: 18px;
+    font-weight: 500;
+}
+.border{
+    border: #7c7c7c solid;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 0px;
+}
+.tableauicon{
+    padding-top: 16px;
+    text-align: left;
+}
+.heading{
+    padding-top: 12px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.caption{
+    padding-top: 8px;
+    font-size: 16px;
+    color:#878D96;
+}
+.heading:hover{
+    color:#FD7070 !important;
+}
+
+.endmessage{
+    text-align: center !important;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2F383E;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+.connect{
+    text-align: center;
+    padding-top: 8px;
+    color: black;
+    padding-bottom: 64px;
+}
+a:visited{
+    color:#2F383E;
+}
+
+.connect *:hover {
+    color:#FD7070 !important;
+}
+a:link {
+    color: #2F383E;
+    background-color: transparent;
+    text-decoration: none;
+}
+
