@@ -87,20 +87,29 @@ h5:before, h5:after {
     text-decoration: line-through;
     margin: auto 0.5em;
   }
+.col10 {
+    background-image:url(../BYJUS/BYJUS\ cover\ page.png);
+    background-repeat:none;
+    background-size:cover;
+    width: fit-content;
+}
 .col1 {
     background-image:url(../Legal_Document/legal\ document\ cover\ homepage.png);
     background-repeat:none;
     background-size:cover;
+    width: fit-content;
 }
 .col2 {
     background-image: url(../Datics/datics\ cover\ homepage.png);
     background-repeat:none;
     background-size:cover;
+    width: fit-content;
 }
 .col3 {
     background-image: url(../Irctc/irctc\ cover\ homepage.png);
     background-repeat:none;
     background-size:cover;
+    width: fit-content;
 }
 
 /* Image To Text On Hover */
