@@ -106,6 +106,18 @@ h5:before, h5:after {
     width: fit-content;
 }
 .col3 {
+    background-image: url(../Shoptrue/shoptrue_coverimage.png);
+    background-repeat:none;
+    background-size:cover;
+    width: fit-content;
+}
+.col21 {
+    background-image: url(../Legal_Document/coverimage_legal.png);
+    background-repeat:none;
+    background-size:cover;
+    width: fit-content;
+}
+.col22 {
     background-image: url(../Irctc/irctc\ cover\ homepage.png);
     background-repeat:none;
     background-size:cover;
